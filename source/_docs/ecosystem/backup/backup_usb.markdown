@@ -114,5 +114,5 @@ To manually mount a USB drive located at `/dev/sda1`, run the following line:
 Alternatively, auto-mount the drive by adding the following entry to your `/etc/fstab`:
 
 ```text
-/dev/sda1  /media               ext4    defaults,noatime  0       1
+/dev/sda1  /media               ext4    defaults,noatime,nofail  0       1
 ```
